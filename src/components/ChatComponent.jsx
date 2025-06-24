@@ -564,8 +564,6 @@ function ChatComponent({ signOut,user }) {
   
          </div> Amazon Bedrock Model:
             <select name="models" id="models" onChange={(e) => setInputModel(e.target.value)}>
-              <option value="nova-micro">Amazon Nova Micro</option>
-              <option value="claude-sonnet-35">Anthropic Claude 3.5 Sonnet</option>
               <option value="claude-37">Anthropic Claude 3.7 Sonnet</option>
               <option value="claude-4">Anthropic Claude 4.0 Sonnet</option>
               
